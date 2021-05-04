@@ -1,0 +1,33 @@
+@charset "utf-8"
+
+#check_page {
+    width: 100vw;
+    font-family: "Arial", "Helvetica", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+.back {
+    margin: 8vw 0 0 7vw;
+    display: block;
+}
+
+#check_page_heading {
+    display: block;
+    margin: 14vw auto 0 auto;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.check_list{
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: 3vw auto 0 auto;
+    font-size: 2vw;
+    padding: 0 16vw 0 23vw;
+}
+
+.check_list p {
+    width: 100%;
+    text-align: left;
+    margin-top: 1vw;
+}

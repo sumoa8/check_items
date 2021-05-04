@@ -1,0 +1,24 @@
+@charset "utf-8"
+
+#check_items {
+    width: 100vw;
+    font-family: "Arial", "Helvetica", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+#index_heading {
+    display: block;
+    margin: 9vw auto 0 auto;
+    text-align: center;
+    font-size: 5vw;
+}
+
+ul .index_list, li {
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: 3vw auto 0 auto;
+    font-size: 2vw;
+}
+
+
+
