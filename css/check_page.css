@@ -26,6 +26,15 @@
 .check_list{
     width: 90%;
     display: block;
+    text-align: left;
+    margin: 20vw auto 0 auto;
+    font-size: 6vw;
+    padding: 0 14vw 0 13vw;
+}
+
+.check_form{
+    width: 90%;
+    display: block;
     text-align: center;
     margin: 20vw auto 0 auto;
     font-size: 6vw;
@@ -34,7 +43,7 @@
 
 .check_list p {
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-top: 6vw;
 }
 
@@ -47,4 +56,8 @@ textarea {
     border: solid #000 1px;
     margin-left: 4vw;
     height: 9vw;
+}
+
+.push_text {
+    margin: 10vw auto 0 auto;
 }
