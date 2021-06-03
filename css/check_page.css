@@ -1,8 +1,14 @@
-@charset "utf-8"
+@charset "utf-8";
 
 #check_page {
     width: 100vw;
     font-family: "Arial", "Helvetica", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+.check_out {
+    margin: 6vw auto 0 auto;
+    width: 90%;
+    text-align: center;
 }
 
 .back {
@@ -14,20 +20,31 @@
     display: block;
     margin: 14vw auto 0 auto;
     text-align: center;
-    font-size: 5vw;
+    font-size: 11vw;
 }
 
 .check_list{
-    width: 70%;
+    width: 90%;
     display: block;
     text-align: center;
-    margin: 3vw auto 0 auto;
-    font-size: 2vw;
-    padding: 0 16vw 0 23vw;
+    margin: 20vw auto 0 auto;
+    font-size: 6vw;
+    padding: 0 14vw 0 13vw;
 }
 
 .check_list p {
     width: 100%;
-    text-align: left;
-    margin-top: 1vw;
+    text-align: center;
+    margin-top: 6vw;
+}
+
+.check_list div {
+    width: 100%;
+}
+
+textarea {
+    overflow: auto;
+    border: solid #000 1px;
+    margin-left: 4vw;
+    height: 9vw;
 }

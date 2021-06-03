@@ -1,23 +1,31 @@
-@charset "utf-8"
+@charset "utf-8";
+
+body {
+    font-family: "Arial", "メイリオ", sans-serif;
+}
 
 #check_items {
     width: 100vw;
-    font-family: "Arial", "Helvetica", "ヒラギノ角ゴ ProN W3", sans-serif;
 }
 
 #index_heading {
     display: block;
     margin: 9vw auto 0 auto;
     text-align: center;
-    font-size: 5vw;
+    font-size: 9vw;
+    font-weight: bold;
+}
+
+.index_list {
+    margin-top: 1vw;
 }
 
 ul .index_list, li {
     width: 70%;
     display: block;
     text-align: center;
-    margin: 3vw auto 0 auto;
-    font-size: 2vw;
+    margin: 24vw auto 0 auto;
+    font-size: 7vw;
 }
 
 
