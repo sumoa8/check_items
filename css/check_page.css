@@ -56,6 +56,8 @@ textarea {
     border: solid #000 1px;
     margin-left: 4vw;
     height: 9vw;
+    text-align: left;
+    font-size: 1vw;
 }
 
 .push_text {
